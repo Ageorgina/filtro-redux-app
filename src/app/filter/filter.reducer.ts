@@ -2,10 +2,10 @@ import * as fromFiltro from './filter.actions';
 
 
 
-const estadoInicial: fromFiltro.filtrosValidos = 'completados';
+const estadoInicial: fromFiltro.filtrosValidos = 'todos';
 
 export function filtroReducer( state = estadoInicial,
-                               action: fromFiltro.acciones): fromFiltro.filtrosValidos{
+                               action: fromFiltro.acciones): fromFiltro.filtrosValidos {
 
     switch ( action.type ) {
 

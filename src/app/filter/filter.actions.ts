@@ -6,9 +6,9 @@ export type filtrosValidos = 'todos' | 'completados' | 'pendientes';
 
 export class SetFiltroAction implements Action {
 
-readonly type = SET_FILTRO;
+    readonly type = SET_FILTRO;
 
-constructor(public filtro: filtrosValidos ) { }
+    constructor(public filtro: filtrosValidos ) { }
 
 }
 

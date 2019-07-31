@@ -1,8 +1,10 @@
 import { Action } from '@ngrx/store';
 
 export const AGREGAR_TODO = '[TODO] Agregar todo';
+
 export const TOGGLE_TODO = '[TODO] Toogle todo';
 export const TOGGLE_ALL_TODO = '[TODO] Toogle ALL todo';
+
 export const EDITAR_TODO = '[TODO] Editar todo';
 export const BORRAR_TODO = '[TODO] Borrar todo';
 export const BORRAR_ALL_TODO = '[TODO] Borrar ALL todo';

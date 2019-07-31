@@ -10,18 +10,18 @@ import { Store } from '@ngrx/store';
 })
 export class TodoComponent implements OnInit {
 
-  completado = false; 
+  completado = false;
 
   constructor(private store: Store<AppState>) { }
 
   ngOnInit() {
   }
-  
+
   toggleAll() {
     this.completado = !this.completado;
-  
+
     const accion = new ToggleAllTodoAction(this.completado);
     this.store.dispatch( accion );
   }
-  
+
 }
